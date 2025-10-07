@@ -122,8 +122,8 @@ const toggleUserMenu = () => {
 
 <style scoped>
 .header {
-  background: linear-gradient#ffffff;
-  color: white;
+  background: #ffffff;
+  color: rgb(92, 92, 92);
   padding: 12px 0;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   position: relative;
@@ -161,7 +161,7 @@ const toggleUserMenu = () => {
 }
 
 .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 6px;
@@ -171,7 +171,7 @@ const toggleUserMenu = () => {
 
 .nav-link:hover,
 .nav-link.active {
-  color: white;
+  color: rgb(37, 36, 36);
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -183,7 +183,7 @@ const toggleUserMenu = () => {
 
 .create-btn {
   background: rgba(255, 255, 255, 0.2);
-  color: white;
+  color: rgb(15, 14, 14);
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -196,7 +196,7 @@ const toggleUserMenu = () => {
 .notifications-btn {
   background: none;
   border: none;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(15, 14, 14, 0.8);
   padding: 8px;
   border-radius: 6px;
   cursor: pointer;
@@ -205,7 +205,7 @@ const toggleUserMenu = () => {
 
 .search-btn:hover,
 .notifications-btn:hover {
-  color: white;
+  color: rgb(41, 38, 38);
   background: rgba(255, 255, 255, 0.1);
 }
 
